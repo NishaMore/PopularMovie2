@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Popular Movie Stage1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="label_overview">Overview :</string>
+    <string name="label_release_date">Release Date :</string>
+    <string name="action_sort">Sort By</string>
+    <string name="sorting_criteria_default_val">Popular</string>
+    <string name="sorting_criteria_key">sorting_criteria_key</string>
+
+    <string-array name="sorting_criteria_array">
+        <item>Popular</item>
+        <item>Top Rated</item>
+    </string-array>
+</resources>

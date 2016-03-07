@@ -192,6 +192,7 @@ public class MainActivityFragment extends Fragment {
                 final String TMDB_API_KEY = "api_key";
 
 
+                //Please replace your API Key here!
                 Uri uri = Uri.parse(BASE_URL).buildUpon()
                         .appendQueryParameter(TMDB_API_KEY, "MY_API_KEY")
                         .build();

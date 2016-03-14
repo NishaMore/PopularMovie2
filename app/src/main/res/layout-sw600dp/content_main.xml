@@ -8,7 +8,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/fragment"
-        android:name="projects.nanodegree.udacity.nisha.com.popularmoviestage1.MainActivityFragment"
+        android:name="projects.nanodegree.udacity.nisha.com.popularmoviestage1.ui.fragments.MainActivityFragment"
         android:layout_width="0dp"
         android:layout_weight="3"
         android:layout_height="match_parent"

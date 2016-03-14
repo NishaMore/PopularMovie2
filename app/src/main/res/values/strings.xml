@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Popular Movie Stage1</string>
+    <string name="app_name">Popular Movie Stage2</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_movie_detail">MovieDetailActivity</string>
     <string name="label_overview">Overview :</string>

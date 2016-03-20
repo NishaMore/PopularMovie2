@@ -7,6 +7,8 @@
     <string name="action_sort">Sort By</string>
     <string name="sorting_criteria_default_val">Popular</string>
     <string name="sorting_criteria_key">sorting_criteria_key</string>
+    <string name="label_trailer">Trailers</string>
+    <string name="label_review">Reviews</string>
 
     <string-array name="sorting_criteria_array">
         <item>Popular</item>

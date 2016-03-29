@@ -1,4 +1,4 @@
-package projects.nanodegree.udacity.nisha.com.popularmoviestage1;
+package projects.nanodegree.udacity.nisha.com.popularmoviestage2;
 
 import org.junit.Test;
 

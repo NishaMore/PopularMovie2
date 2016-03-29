@@ -1,13 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.activities.MainActivity">
-    <item
-        android:id="@+id/sorting_spinner"
-        android:orderInCategory="100"
-        android:title="@string/action_sort"
-        app:showAsAction="ifRoom"
-        app:actionViewClass="android.widget.Spinner"
-        
-        />
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sortBy_popular"
+            android:title="@string/popular" />
+        <item
+            android:id="@+id/sortBy_top_rated"
+            android:title="@string/top_rated" />
+        <item
+            android:id="@+id/sortBy_favorite"
+            android:title="@string/favorite" />
+
+    </group>
 </menu>
+
+    <!--<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ui.activities.MainActivity">
+       &lt;!&ndash; <item
+            android:id="@+id/sorting_spinner"
+            android:orderInCategory="100"
+            android:title="@string/action_sort"
+            app:showAsAction="ifRoom"
+            app:actionViewClass="android.widget.Spinner"
+
+            />&ndash;&gt;
+      &lt;!&ndash;  <item android:id="@+id/action_settings"
+            android:title="@string/action_settings"
+            app:showAsAction="never">
+        <menu>&ndash;&gt;
+            <item android:id="@+id/action_popular"
+                android:title="@string/popular" />
+
+            <item android:id="@+id/action_top_rated"
+                android:title="@string/top_rated" />
+
+            <item android:id="@+id/action_favorite"
+                android:title="@string/favorite" />
+
+
+    </menu>-->

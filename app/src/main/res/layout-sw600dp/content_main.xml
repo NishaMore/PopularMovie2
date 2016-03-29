@@ -2,15 +2,16 @@
     android:orientation="horizontal"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="2">
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/fragment"
-        android:name="projects.nanodegree.udacity.nisha.com.popularmoviestage1.ui.fragments.MainActivityFragment"
+        android:id="@+id/fragment_list"
+        android:name="projects.nanodegree.udacity.nisha.com.popularmoviestage2.ui.fragments.MainActivityFragment"
         android:layout_width="0dp"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:layout="@layout/fragment_main" />
@@ -19,7 +20,8 @@
         android:id="@+id/movie_detail_container"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="4"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
 
         />
 </LinearLayout>

@@ -5,13 +5,21 @@
     <string name="label_overview">Overview :</string>
     <string name="label_release_date">Release Date :</string>
     <string name="action_sort">Sort By</string>
-    <string name="sorting_criteria_default_val">Popular</string>
+    <string name="sorting_criteria_default_val">popular</string>
     <string name="sorting_criteria_key">sorting_criteria_key</string>
     <string name="label_trailer">Trailers</string>
     <string name="label_review">Reviews</string>
+    <string name="content_authority">projects.nanodegree.udacity.nisha.com.popularmoviestage2</string>
+    <string name="action_fav">Favorite</string>
+    <string name="action_share">Share Trailer</string>
+    <string name="msg_reviews_status">There are no reviews!</string>
 
-    <string-array name="sorting_criteria_array">
+    <!--<string-array name="sorting_criteria_array">
         <item>Popular</item>
         <item>Top Rated</item>
-    </string-array>
+        <item>Favorites</item>
+    </string-array>-->
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="favorite">Favorites</string>
 </resources>

@@ -18,3 +18,12 @@ Note: If you want to run it on device please ensure to replace your TMDB api key
 
 Thanks!
 
+
+ ` /** A simple endpoint method to provide a joke */
+    @ApiMethod(name = "getJoke")
+    public MyBean getJoke(){
+        MyBean response = new MyBean();
+        response.setData(JokeProvider.getJoke());
+
+        return response;
+    }`

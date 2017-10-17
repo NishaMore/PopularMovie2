@@ -20,12 +20,4 @@ Thanks!
 
 
   
- ``` /** A simple endpoint method to provide a joke */
-    @ApiMethod(name = "getJoke")
-    public MyBean getJoke(){
-        MyBean response = new MyBean();
-        response.setData(JokeProvider.getJoke());
 
-        return response;
-    } 
-    
